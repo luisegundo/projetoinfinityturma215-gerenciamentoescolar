@@ -1,0 +1,28 @@
+<div class="container-fluid min-vh-100 d-flex align-items-center justify-content-center bg-light">
+    <div class="card shadow-lg" style="width: 400px;">
+        <div class="card-header bg-success text-white text-center">
+            <h4>👨‍💼 Login Administrativo</h4>
+        </div>
+        <div class="card-body">
+            <form id="adminLoginForm">
+                <div class="mb-3">
+                    <label for="adminEmail" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="adminEmail" required>
+                </div>
+                <div class="mb-3">
+                    <label for="adminCpf" class="form-label">CPF:</label>
+                    <input type="text" class="form-control" id="adminCpf" required maxlength="11">
+                </div>
+                <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-success">Entrar</button>
+                    <button type="button" class="btn btn-outline-secondary" onclick="router.navigate('/admin/cadastro')">
+                        Cadastrar Admin
+                    </button>
+                    <button type="button" class="btn btn-outline-primary" onclick="router.navigate('/')">
+                        Voltar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

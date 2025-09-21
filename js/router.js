@@ -75,7 +75,7 @@ class Router {
                         
                         <div class="d-grid gap-3">
                             <button class="btn btn-success btn-lg" onclick="router.navigate('/admin/login')">
-                                ��‍💼 Acesso Administrativo
+                                👨‍💼 Acesso Administrativo
                             </button>
                             <button class="btn btn-info btn-lg" onclick="router.navigate('/aluno/login')">
                                 👨‍🎓 Acesso do Aluno
